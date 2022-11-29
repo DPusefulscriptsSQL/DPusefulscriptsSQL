@@ -1,0 +1,9 @@
+DATAB/*
+	SQL SERVER 2019 - Compatibility level 150 
+
+*/
+
+ALTER DATABASE SCOPED CONFIGURATION SET TSQL_SCALAR_UDF_INLINING = OFF;
+
+
+select * from Events
